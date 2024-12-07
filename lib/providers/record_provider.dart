@@ -28,7 +28,7 @@ class RecordProvider with ChangeNotifier {
 
     } catch (e) {
       _hasError = true;
-      _errorMessage = '영수증 목록을 불러오는데 실패했습니다.';
+      _errorMessage = '영수증 목록을 불러오는데 실패했습니다..';
       _records = [];
     } finally {
       _isLoading = false;
